@@ -1,0 +1,34 @@
+Passed:
+nestest (official opcodes only)
+branch_timing_tests
+cpu_dummy_reads
+cpu_dummy_writes_oam
+cpu_dummy_write_ppumem
+cpu_exec_space_ppuio
+cpu_timing_test6
+oam_read
+ppu_open_bus
+instr_test_v5 (official only)
+instr_misc
+blargg_ppu :
+	palette_ram
+	sprite_ram
+	vbl_clear_time
+	vram_access
+blargg_apu :
+	01.len_ctr
+	02.len_table
+	03.irq_flag
+	04.clock_jitter
+	05.len_timing_mode0
+	06.len_timing_mode1
+	07.irq_flag_timing
+	08.irq_timing
+	09.reset_timing
+	10.len_halt_timing
+	11.len_reload_timing
+
+Failed:
+oam_stress
+cpu_interruptsv2
+cpu_exec_space_apu
